@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  min-height: 75vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(127, 119, 119, 0.7),
+      rgba(127, 119, 119, 0.7)
+    ),
+    url(images/coffeehouse.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.nav-links {
+  background: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 1% 6%;
+}
+.nav-links ul li {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+  height: 30px;
+}
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.nav-links ul li :hover {
+  background-color: #ccc;
+  display: block;
+  margin: 0 auto;
+  padding: 6px;
+}
+.text-box {
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 62px;
+}
+.text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.text p {
+  background: #000;
+  color: #fff;
+  padding: 2px 5px;
+}
+.text1 {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.text1 p {
+  color: #fff;
+}
+/* about */
+#about {
+  background-color: #f7f5f2 !important;
+  padding-bottom:25px;
+}
+.about {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.about h5 {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 2px 5px;
+  letter-spacing: 5px;
+  font-weight: 300;
+}
+.about p {
+  font-size: 16px;
+  color: #777;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 10px;
+  text-align: left;
+}
+.leftbar {
+  border-left: 6px solid #ccc !important;
+  background-color: #f1f1f1 !important;
+}
+.leftbar p {
+  padding: 20px;
+}
+.leftbar p:nth-child(2) {
+  padding: 0 20px 20px 20px;
+}
+img.coffeeshop {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 25px;
+}
+/* footer */
+#footer{
+  background: linear-gradient(to right, #7D7373, #7D7373);
+    color: #fff;
+}
+#footer .container{
+  width:80%;
+  margin:auto;
+  text-align:left;
+  padding-top:0px;
+}
+#footer .row {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-col {
+  flex-basis: 30%;
+  margin-bottom: 3%;
+  padding: 20px 12px;
+  transition: 0.5s;
+}
+.footer-col h4{
+  font-size:16px;
+  margin-bottom: 1rem;
+}
+.subscribe h4{
+  margin-bottom:0;
+}
+.footer-col .fa {
+  margin-right: 0px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: left;
+    padding-top: 7px;
+    border-radius: 2px;
+    background: linear-gradient(to right, #7D7373, #7D7373);
+}
+
+ .footer-col .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  max-width: 250px;
+  padding: 12px;
+  font-size: 16px;
+}
+.footer-col button.btn.btn-primary {
+  box-shadow: none !important;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin-top: 30px;
+  background: linear-gradient(to right, #7D7373, #7D7373);
+  transition: width 2s;
+  padding: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-col button.btn.btn-primary:hover {
+  box-shadow: none !important;
+  border: 2px solid #808080;
+  margin-top: 30px;
+  color: #808080;
+  padding: 12px;
+  background: linear-gradient(to right, #fff, #fff);
+}
+/* media queries */
+@media (max-width: 1400px){
+  .subscribe h4 {
+    margin-bottom: 1rem;
+}
+.footer-col .btn-primary {
+  margin-top: 10px;
+}
+}
+@media (max-width: 1024px){
+  #footer .container {
+    width: 96%;
+  }
+  .subscribe h4 {
+    margin-bottom: 1rem;
+}
+.footer-col .btn-primary {
+  margin-top: 10px;
+}
+}
+@media (max-width: 767px) {
+  .text {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+  }
+  .text1 {
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+  }
+  .about {
+    padding-top: 40px;
+}
+  #footer .row {
+    flex-direction: column;
+}
+.footer-col{
+  margin-bottom:0%;
+}
+#footer .container {
+  width: 100%;
+}
+.subscribe h4 {
+  margin-bottom: 0rem;
+}
+}
+@media (max-width: 350px){
+.text {
+    position: absolute;
+    bottom: 60px;
+    left: 70px;
+}
+.text1 {
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+}
+}
