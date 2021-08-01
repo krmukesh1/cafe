@@ -83,13 +83,13 @@ ul {
 /* about */
 #about {
   background-color: #f7f5f2 !important;
-  padding-bottom:25px;
+  padding-bottom: 25px;
 }
 .about {
   max-width: 700px;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .about h5 {
   font-size: 20px;
@@ -126,15 +126,15 @@ img.coffeeshop {
   margin-top: 25px;
 }
 /* footer */
-#footer{
-  background: linear-gradient(to right, #7D7373, #7D7373);
-    color: #fff;
+#footer {
+  background: linear-gradient(to right, #7d7373, #7d7373);
+  color: #fff;
 }
-#footer .container{
-  width:80%;
-  margin:auto;
-  text-align:left;
-  padding-top:0px;
+#footer .container {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  padding-top: 0px;
 }
 #footer .row {
   margin-top: 0;
@@ -147,25 +147,25 @@ img.coffeeshop {
   padding: 20px 12px;
   transition: 0.5s;
 }
-.footer-col h4{
-  font-size:16px;
+.footer-col h4 {
+  font-size: 16px;
   margin-bottom: 1rem;
 }
-.subscribe h4{
-  margin-bottom:0;
+.subscribe h4 {
+  margin-bottom: 0;
 }
 .footer-col .fa {
   margin-right: 0px;
-    font-size: 25px;
-    height: 40px;
-    width: 40px;
-    text-align: left;
-    padding-top: 7px;
-    border-radius: 2px;
-    background: linear-gradient(to right, #7D7373, #7D7373);
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: left;
+  padding-top: 7px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #7d7373, #7d7373);
 }
 
- .footer-col .form-control {
+.footer-col .form-control {
   box-shadow: none !important;
   border: none;
   border-radius: 0;
@@ -178,7 +178,7 @@ img.coffeeshop {
   border: 2px solid #fff;
   border-radius: 4px;
   margin-top: 30px;
-  background: linear-gradient(to right, #7D7373, #7D7373);
+  background: linear-gradient(to right, #7d7373, #7d7373);
   transition: width 2s;
   padding: 12px;
   color: #fff;
@@ -193,24 +193,24 @@ img.coffeeshop {
   background: linear-gradient(to right, #fff, #fff);
 }
 /* media queries */
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
   .subscribe h4 {
     margin-bottom: 1rem;
+  }
+  .footer-col .btn-primary {
+    margin-top: 10px;
+  }
 }
-.footer-col .btn-primary {
-  margin-top: 10px;
-}
-}
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   #footer .container {
     width: 96%;
   }
   .subscribe h4 {
     margin-bottom: 1rem;
-}
-.footer-col .btn-primary {
-  margin-top: 10px;
-}
+  }
+  .footer-col .btn-primary {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 767px) {
   .text {
@@ -225,29 +225,29 @@ img.coffeeshop {
   }
   .about {
     padding-top: 40px;
-}
+  }
   #footer .row {
     flex-direction: column;
+  }
+  .footer-col {
+    margin-bottom: 0%;
+  }
+  #footer .container {
+    width: 100%;
+  }
+  .subscribe h4 {
+    margin-bottom: 0rem;
+  }
 }
-.footer-col{
-  margin-bottom:0%;
-}
-#footer .container {
-  width: 100%;
-}
-.subscribe h4 {
-  margin-bottom: 0rem;
-}
-}
-@media (max-width: 350px){
-.text {
+@media (max-width: 350px) {
+  .text {
     position: absolute;
     bottom: 60px;
     left: 70px;
-}
-.text1 {
-  position: absolute;
-  right: 90px;
-  bottom: 20px;
-}
+  }
+  .text1 {
+    position: absolute;
+    right: 90px;
+    bottom: 20px;
+  }
 }
